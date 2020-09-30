@@ -32,7 +32,7 @@ namespace IBMModel1
             int m_input_len = input_lang.Length;
         
             string output_word="";
-            int ia = 1;
+            int ia = 1; //adding
             for (int j = 0; j < m_input_len; ++j)
             {
                 int a_j = alignment[j]+ia; 
